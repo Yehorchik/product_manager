@@ -1,0 +1,16 @@
+.img{
+    width:100px;
+}
+.products{
+   border:2px solid black;
+   height: 250px;
+   width:250px;
+   overflow-x: scroll;
+}
+.product{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 110px;
+    justify-content: center;
+}

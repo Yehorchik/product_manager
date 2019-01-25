@@ -1,0 +1,9 @@
+<div class="product">
+<h1>Edit Product</h1>
+<p>Title : <input type='text' name='product.title' [(ngModel)]='product.title'></p>
+<p>Price : <input type='text' name='product.price' [(ngModel)]='product.price'></p>
+<p>Image Url : <input type='text' name='product.imageUrl' [(ngModel)]='product.imageUrl'></p>
+<button (click)='updateProduct(product._id)' >Update</button>
+<button (click)='deleteProduct(product._id)'>Delete</button>
+
+</div>
